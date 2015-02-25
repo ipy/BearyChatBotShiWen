@@ -1,0 +1,29 @@
+{
+  "name": "BearyChatBotShiWen",
+  "version": "0.0.1",
+  "description": "BearyChat bot to display ancient Chinese poems and articles.",
+  "main": "cloud/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ipy/BearyChatBotShiWen"
+  },
+  "keywords": [
+    "bearychat",
+    "bot",
+    "poem",
+    "Chinese"
+  ],
+  "author": "Sin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipy/BearyChatBotShiWen/issues"
+  },
+  "homepage": "https://github.com/ipy/BearyChatBotShiWen",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.53.0"
+  }
+}
