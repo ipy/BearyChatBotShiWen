@@ -1,7 +1,7 @@
 // 在 Cloud code 里初始化 Express 框架
 var express = require('express');
 var app = express();
-var randomRoute = require('cloud/routes/random');
+var shiwen = require('cloud/routes/shiwen');
 
 // App 全局配置
 app.set('views','cloud/views');   // 设置模板目录
@@ -13,7 +13,8 @@ app.get('/hello', function(req, res) {
   res.render('hello', { message: 'Congrats, you just set up your app!' });
 });
 
-app.get('/', randomRoute);
+app.get('/', shiwen);
+app.post('/', shiwen);
 
 // 最后，必须有这行代码来使 express 响应 HTTP 请求
 app.listen();
